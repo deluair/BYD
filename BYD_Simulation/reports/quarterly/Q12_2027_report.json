@@ -1,0 +1,87 @@
+{
+  "quarter": 12,
+  "year": 2027,
+  "period": "Q12 2027",
+  "automotive_performance": {
+    "total_revenue": 0,
+    "total_units_sold": 0,
+    "average_selling_price": 0,
+    "revenue_by_region": {
+      "China": 0,
+      "Europe": 0,
+      "NorthAmerica": 0,
+      "SoutheastAsia": 0,
+      "LatinAmerica": 0,
+      "MiddleEast": 0
+    },
+    "units_by_model": {
+      "Seagull": 0,
+      "Dolphin": 0,
+      "Seal": 0,
+      "Han": 0,
+      "Tang": 0,
+      "Yuan": 0,
+      "Song": 0
+    }
+  },
+  "battery_performance": {
+    "revenue": 0,
+    "raw_material_costs": 22435000,
+    "gross_margin": 0,
+    "inventory_value": 288277541.51057047
+  },
+  "financial_summary": {
+    "total_revenue": 9.809216231544357e+60,
+    "net_profit": 1.7581049480095798e+60,
+    "gross_profit": 4.227371518737085e+60,
+    "operating_profit": 1.8393787474726618e+60,
+    "cash_balance": 1.1059964553373044e+60,
+    "total_assets": 1.1059964553373044e+60,
+    "market_cap_estimate": 2.452304057886089e+61
+  },
+  "market_analysis": {
+    "market_share": 0.0,
+    "customer_satisfaction": 0.9520000000000001,
+    "brand_perception": 0.5669999999999998,
+    "capacity_utilization": {
+      "China": 0.0,
+      "Europe": 0.0,
+      "NorthAmerica": 0.0,
+      "SoutheastAsia": 0.0,
+      "LatinAmerica": 0.0,
+      "MiddleEast": 0.0
+    },
+    "production_efficiency": {
+      "China": 0.85,
+      "Europe": 0.85,
+      "NorthAmerica": 0.85,
+      "SoutheastAsia": 0.85,
+      "LatinAmerica": 0.85,
+      "MiddleEast": 0.85
+    }
+  },
+  "technology_progress": {
+    "rd_investment_billion_cny": 112.58260226591361,
+    "total_patents": 36112,
+    "patents_filed_this_year": 25962,
+    "rd_staff_count": 358477,
+    "innovation_pipeline_projects": 13,
+    "innovation_metrics": {
+      "time_to_market_months": 27.264068398748748,
+      "success_rate": 0.85,
+      "patent_citation_index": 4.307805360402351,
+      "technology_transfer_rate": 0.8904498503540667,
+      "rd_efficiency_score": 0.9433348292494095
+    },
+    "research_centers_count": 5,
+    "technology_partnerships": {
+      "universities": 4,
+      "industry": 3
+    }
+  },
+  "kpi_trends": {
+    "revenue_growth": 19098387.963671103,
+    "profit_growth": 21632189.977890495,
+    "market_share_change": 0.0
+  }
+}

@@ -1,0 +1,333 @@
+{
+    "timestamp": "2026-01-01T00:00:00",
+    "type": "Technology",
+    "data": {
+        "rd_staff": 149313,
+        "patents": {
+            "total": 13679,
+            "filed_this_year": 3529,
+            "by_category": {
+                "Battery_Technology": 4380,
+                "Automotive_Electronics": 3252,
+                "ADAS_Autonomous": 2962,
+                "Manufacturing_Process": 2073,
+                "Energy_Storage": 1153
+            },
+            "international": {
+                "US": 2185,
+                "Europe": 1871,
+                "Japan": 1020,
+                "Other": 727
+            }
+        },
+        "rd_investment": {
+            "total_billion_cny": 34.45270719033258,
+            "by_division": {
+                "Automotive": 8.2,
+                "Battery": 6.1,
+                "Electronics": 2.8,
+                "Energy_Storage": 1.4
+            },
+            "by_stage": {
+                "Basic_Research": 0.15,
+                "Applied_Research": 0.35,
+                "Development": 0.4,
+                "Testing_Validation": 0.1
+            }
+        },
+        "research_centers": {
+            "Shenzhen_HQ": {
+                "staff": 29953,
+                "focus": [
+                    "Battery_Chemistry",
+                    "Power_Electronics"
+                ],
+                "budget_billion_cny": 7.554428638317259,
+                "breakthrough_probability": 0.15
+            },
+            "Shanghai_Auto": {
+                "staff": 24902,
+                "focus": [
+                    "ADAS",
+                    "Autonomous_Driving",
+                    "Vehicle_Integration"
+                ],
+                "budget_billion_cny": 7.4374585302447835,
+                "breakthrough_probability": 0.15
+            },
+            "Beijing_AI": {
+                "staff": 16835,
+                "focus": [
+                    "AI_Algorithms",
+                    "Machine_Learning",
+                    "Data_Analytics"
+                ],
+                "budget_billion_cny": 5.833404056778343,
+                "breakthrough_probability": 0.15
+            },
+            "Xian_Manufacturing": {
+                "staff": 13585,
+                "focus": [
+                    "Process_Innovation",
+                    "Automation",
+                    "Quality_Systems"
+                ],
+                "budget_billion_cny": 3.19655952251153,
+                "breakthrough_probability": 0.008730243741306085
+            },
+            "International_Labs": {
+                "staff": 9183,
+                "focus": [
+                    "Global_Standards",
+                    "Localization",
+                    "Partnerships"
+                ],
+                "budget_billion_cny": 2.46555485858708,
+                "breakthrough_probability": 0.0002588318526605012
+            }
+        },
+        "innovation_pipeline": {
+            "concept_stage": [
+                {
+                    "name": "Solid_State_Battery_Gen3",
+                    "progress": 0.8670627402372022,
+                    "potential_impact": 0.35
+                },
+                {
+                    "name": "Wireless_Charging_Highway",
+                    "progress": 0.7534352486869079,
+                    "potential_impact": 0.45
+                },
+                {
+                    "name": "Sustainable_Material_Recovery",
+                    "progress": 0.7560090837961705,
+                    "potential_impact": 0.4938669039649072
+                },
+                {
+                    "name": "Edge_AI_Vehicle_Computing",
+                    "progress": 0.6068927613674748,
+                    "potential_impact": 0.3337900985758048
+                },
+                {
+                    "name": "Bio_Inspired_Battery_Design",
+                    "progress": 0.4403660793251073,
+                    "potential_impact": 0.4465567514709283
+                },
+                {
+                    "name": "Edge_AI_Vehicle_Computing",
+                    "progress": 0.2882836918610532,
+                    "potential_impact": 0.2036223369947071
+                },
+                {
+                    "name": "Bio_Inspired_Battery_Design",
+                    "progress": 0.349559683290016,
+                    "potential_impact": 0.3534218619090975
+                },
+                {
+                    "name": "Quantum_Dot_Solar_Integration",
+                    "progress": 0.29495013426064104,
+                    "potential_impact": 0.4694744508597357
+                }
+            ],
+            "development_stage": [
+                {
+                    "name": "AI_Predictive_Maintenance",
+                    "progress": 0.24269246354084326,
+                    "potential_impact": 0.2
+                }
+            ],
+            "testing_stage": [
+                {
+                    "name": "Blade_Battery_2.0",
+                    "progress": 0.6030085645168343,
+                    "potential_impact": 0.3
+                },
+                {
+                    "name": "LFP_Energy_Density_Plus",
+                    "progress": 0.5241689576794369,
+                    "potential_impact": 0.25
+                },
+                {
+                    "name": "Level4_Autonomous_Stack",
+                    "progress": 0.5779163949989837,
+                    "potential_impact": 0.4
+                }
+            ]
+        },
+        "technology_partnerships": {
+            "Universities": {
+                "Tsinghua": {
+                    "projects": 12,
+                    "budget_million_cny": 120
+                },
+                "MIT": {
+                    "projects": 9,
+                    "budget_million_cny": 125.60834398530136
+                },
+                "Stanford": {
+                    "projects": 4,
+                    "budget_million_cny": 100.86763553885012
+                },
+                "Cambridge": {
+                    "projects": 2,
+                    "budget_million_cny": 66.6987653449698
+                }
+            },
+            "Industry": {
+                "NVIDIA": {
+                    "focus": "AI_Computing",
+                    "investment_million_cny": 571.3434898822338
+                },
+                "Qualcomm": {
+                    "focus": "Automotive_Chips",
+                    "investment_million_cny": 364.9139083885491
+                },
+                "Bosch": {
+                    "focus": "Sensor_Technology",
+                    "investment_million_cny": 320.6616295731527
+                }
+            }
+        },
+        "competitive_intelligence": {
+            "Tesla": {
+                "patent_activity": "very_high",
+                "focus_areas": [
+                    "FSD",
+                    "Battery_Manufacturing"
+                ]
+            },
+            "Toyota": {
+                "patent_activity": "high",
+                "focus_areas": [
+                    "Solid_State",
+                    "Hydrogen"
+                ]
+            },
+            "Volkswagen": {
+                "patent_activity": "high",
+                "focus_areas": [
+                    "Platform_Integration",
+                    "Software"
+                ]
+            },
+            "CATL": {
+                "patent_activity": "medium",
+                "focus_areas": [
+                    "Battery_Chemistry",
+                    "Manufacturing"
+                ]
+            }
+        },
+        "innovation_metrics": {
+            "time_to_market_months": 22.920121334361458,
+            "success_rate": 0.85,
+            "patent_citation_index": 2.7310783176695708,
+            "technology_transfer_rate": 0.8396284727790344,
+            "rd_efficiency_score": 0.5755156060704444
+        }
+    },
+    "performance_metrics": {
+        "rd_investment": 34.45270719033258,
+        "patent_portfolio": {
+            "total_patents": 13679,
+            "annual_filing_rate": 3529,
+            "international_coverage": 5803
+        },
+        "innovation_pipeline": {
+            "total_projects": 12,
+            "avg_progress": 0.5253621502967225,
+            "breakthrough_potential": 0.3542277003145984
+        },
+        "research_capability": {
+            "total_rd_staff": 149313,
+            "research_centers": 5,
+            "partnership_strength": 7
+        },
+        "innovation_efficiency": {
+            "time_to_market_months": 22.920121334361458,
+            "success_rate": 0.85,
+            "patent_citation_index": 2.7310783176695708,
+            "technology_transfer_rate": 0.8396284727790344,
+            "rd_efficiency_score": 0.5755156060704444
+        }
+    },
+    "technology_trends": {
+        "battery_energy_density": 2.3210273452151213,
+        "autonomous_driving_capability": 2.794093941689635,
+        "ai_integration": 2.1101581450390485,
+        "manufacturing_automation": 2.2415919314112838,
+        "sustainability_focus": 2.0961553582121826
+    },
+    "innovation_history": {
+        "monthly_patents": [
+            {
+                "month": "2025-01-01T00:00:00",
+                "patents_filed": 141
+            },
+            {
+                "month": "2025-02-01T00:00:00",
+                "patents_filed": 82
+            },
+            {
+                "month": "2025-03-01T00:00:00",
+                "patents_filed": 106
+            },
+            {
+                "month": "2025-04-01T00:00:00",
+                "patents_filed": 50
+            },
+            {
+                "month": "2025-05-01T00:00:00",
+                "patents_filed": 0
+            },
+            {
+                "month": "2025-06-01T00:00:00",
+                "patents_filed": 0
+            },
+            {
+                "month": "2025-07-01T00:00:00",
+                "patents_filed": 0
+            },
+            {
+                "month": "2025-08-01T00:00:00",
+                "patents_filed": 0
+            },
+            {
+                "month": "2025-09-01T00:00:00",
+                "patents_filed": 0
+            },
+            {
+                "month": "2025-10-01T00:00:00",
+                "patents_filed": 76
+            },
+            {
+                "month": "2025-11-01T00:00:00",
+                "patents_filed": 78
+            },
+            {
+                "month": "2025-12-01T00:00:00",
+                "patents_filed": 61
+            },
+            {
+                "month": "2026-01-01T00:00:00",
+                "patents_filed": 85
+            }
+        ],
+        "breakthrough_timeline": [
+            {
+                "date": "2025-01-01T00:00:00",
+                "innovation": "Cell_to_Pack_Integration",
+                "impact": 0.22,
+                "commercialization_timeline": 22
+            },
+            {
+                "date": "2025-02-01T00:00:00",
+                "innovation": "Advanced_BMS_AI",
+                "impact": 0.18,
+                "commercialization_timeline": 21
+            }
+        ],
+        "investment_efficiency": [],
+        "competitive_position": []
+    }
+}

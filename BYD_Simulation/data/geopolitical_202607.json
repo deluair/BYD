@@ -1,0 +1,354 @@
+{
+    "timestamp": "2026-07-01T00:00:00",
+    "type": "Geopolitical",
+    "data": {
+        "regional_markets": {
+            "China": {
+                "market_access": 0.8210653570367,
+                "regulatory_compliance": 0.9929816886468221,
+                "local_content_requirement": 0.4,
+                "government_support": 0.26273048891157114,
+                "political_stability": 0.7605746504721772,
+                "trade_barriers": 0.4377766310992089,
+                "ev_incentives": 0.9625318926726365,
+                "manufacturing_restrictions": 0.2
+            },
+            "United_States": {
+                "market_access": 0.47066198787147484,
+                "regulatory_compliance": 1.0,
+                "local_content_requirement": 0.5,
+                "government_support": 0.21965398710682865,
+                "political_stability": 0.7136956604896981,
+                "trade_barriers": 0.7507772233437693,
+                "ev_incentives": 0.9842660380444634,
+                "manufacturing_restrictions": 0.35
+            },
+            "Europe": {
+                "market_access": 0.8260160848906012,
+                "regulatory_compliance": 0.9910905519512054,
+                "local_content_requirement": 0.3,
+                "government_support": 0.4490659997237104,
+                "political_stability": 0.8624276338754048,
+                "trade_barriers": 0.5177555249323256,
+                "ev_incentives": 0.9858239728464527,
+                "manufacturing_restrictions": 0.15
+            },
+            "Southeast_Asia": {
+                "market_access": 0.7548906156029609,
+                "regulatory_compliance": 0.9798075969547883,
+                "local_content_requirement": 0.25,
+                "government_support": 0.38559718895503553,
+                "political_stability": 0.5518421326209904,
+                "trade_barriers": 0.6202900745653306,
+                "ev_incentives": 1.0,
+                "manufacturing_restrictions": 0.1
+            },
+            "Latin_America": {
+                "market_access": 0.7037480519665623,
+                "regulatory_compliance": 0.9829913429969415,
+                "local_content_requirement": 0.35,
+                "government_support": 0.3961784733270305,
+                "political_stability": 0.5487093469114399,
+                "trade_barriers": 0.72961318659135,
+                "ev_incentives": 0.964154537178603,
+                "manufacturing_restrictions": 0.25
+            },
+            "Middle_East_Africa": {
+                "market_access": 0.4228617656474322,
+                "regulatory_compliance": 0.7719198356257293,
+                "local_content_requirement": 0.2,
+                "government_support": 0.4096288137517181,
+                "political_stability": 0.4195263251166518,
+                "trade_barriers": 0.681191815175587,
+                "ev_incentives": 0.7852124313107618,
+                "manufacturing_restrictions": 0.15
+            }
+        },
+        "trade_policies": {
+            "tariffs": {
+                "US_Import": 0.31703268886639846,
+                "EU_Import": 0.1,
+                "ASEAN_Import": 0.05,
+                "RCEP_Benefit": 0.019032647659644047,
+                "Belt_Road_Benefit": -0.031538263075755676
+            },
+            "trade_agreements": {
+                "RCEP": {
+                    "status": "active",
+                    "benefit_level": 0.29213604185509723,
+                    "coverage": [
+                        "Southeast_Asia",
+                        "China"
+                    ],
+                    "expiry_risk": 0.20397117140508927
+                },
+                "Belt_Road_Initiative": {
+                    "status": "expanding",
+                    "benefit_level": 0.3138388626770654,
+                    "coverage": [
+                        "Middle_East_Africa",
+                        "Latin_America",
+                        "Southeast_Asia"
+                    ],
+                    "expiry_risk": 0.1
+                },
+                "CPTPP_Application": {
+                    "status": "active",
+                    "benefit_level": 0.34218789264196176,
+                    "coverage": [
+                        "Latin_America",
+                        "Southeast_Asia"
+                    ],
+                    "approval_probability": 0.35
+                }
+            },
+            "export_controls": {
+                "battery_technology": 0.15,
+                "semiconductor_chips": 0.25,
+                "rare_earth_materials": 0.254709640702719,
+                "manufacturing_equipment": 0.1728464163931338
+            }
+        },
+        "regulatory_environment": {
+            "emissions_standards": {
+                "China_NEV": {
+                    "compliance_cost": 0.25,
+                    "timeline_pressure": 0.9864224943243804
+                },
+                "EU_Green_Deal": {
+                    "compliance_cost": 0.2455671083924158,
+                    "timeline_pressure": 0.993167551676289
+                },
+                "US_CAFE": {
+                    "compliance_cost": 0.25,
+                    "timeline_pressure": 0.7814068235182299
+                },
+                "Global_Paris_Accord": {
+                    "compliance_cost": 0.25,
+                    "timeline_pressure": 0.9968642588374184
+                }
+            },
+            "safety_standards": {
+                "UN_ECE": {
+                    "compliance_level": 1.0,
+                    "certification_cost": 0.15
+                },
+                "NHTSA": {
+                    "compliance_level": 0.9755291125852635,
+                    "certification_cost": 0.14534359788999612
+                },
+                "Euro_NCAP": {
+                    "compliance_level": 0.9631086119446313,
+                    "certification_cost": 0.15
+                },
+                "China_CNCAP": {
+                    "compliance_level": 1.0,
+                    "certification_cost": 0.15
+                }
+            },
+            "data_privacy": {
+                "GDPR_Europe": {
+                    "compliance_cost": 0.11287501681937835,
+                    "risk_level": 0.3138118295972627
+                },
+                "CCPA_California": {
+                    "compliance_cost": 0.1161910555531759,
+                    "risk_level": 0.4355760640716891
+                },
+                "China_PIPL": {
+                    "compliance_cost": 0.10490445336459024,
+                    "risk_level": 0.437835515460572
+                }
+            }
+        },
+        "geopolitical_risks": {
+            "trade_war_escalation": {
+                "probability": 0.7,
+                "impact_severity": 0.6627937436619482,
+                "affected_regions": [
+                    "United_States",
+                    "Europe"
+                ],
+                "mitigation_strategies": [
+                    "supply_chain_diversification",
+                    "local_partnerships"
+                ]
+            },
+            "technology_decoupling": {
+                "probability": 0.5259236278538721,
+                "impact_severity": 0.6070414564714302,
+                "affected_regions": [
+                    "United_States"
+                ],
+                "mitigation_strategies": [
+                    "indigenous_innovation",
+                    "alternative_suppliers"
+                ]
+            },
+            "sanctions_risk": {
+                "probability": 0.49166735916021165,
+                "impact_severity": 0.7756757023160322,
+                "affected_regions": [
+                    "United_States",
+                    "Europe"
+                ],
+                "mitigation_strategies": [
+                    "compliance_enhancement",
+                    "legal_structuring"
+                ]
+            },
+            "supply_chain_disruption": {
+                "probability": 0.4973522359854561,
+                "impact_severity": 0.265518161045856,
+                "affected_regions": [
+                    "Global"
+                ],
+                "mitigation_strategies": [
+                    "inventory_buffering",
+                    "supplier_diversification"
+                ]
+            }
+        },
+        "diplomatic_relations": {
+            "China_US": {
+                "relationship_score": 0.1,
+                "trend": "deteriorating",
+                "key_issues": [
+                    "trade_deficit",
+                    "technology_transfer",
+                    "market_access"
+                ],
+                "dialogue_frequency": "quarterly"
+            },
+            "China_EU": {
+                "relationship_score": 0.6125458858685684,
+                "trend": "stable",
+                "key_issues": [
+                    "market_reciprocity",
+                    "human_rights",
+                    "climate_cooperation"
+                ],
+                "dialogue_frequency": "monthly"
+            },
+            "China_ASEAN": {
+                "relationship_score": 1.0,
+                "trend": "improving",
+                "key_issues": [
+                    "trade_facilitation",
+                    "infrastructure_development"
+                ],
+                "dialogue_frequency": "weekly"
+            }
+        },
+        "policy_monitoring": {
+            "upcoming_elections": {
+                "US_Presidential_2024": {
+                    "impact_probability": 1.0,
+                    "policy_change_risk": 0.6005709835585613
+                },
+                "EU_Parliament_2024": {
+                    "impact_probability": 0.6357357240441174,
+                    "policy_change_risk": 0.45147513675084044
+                },
+                "Taiwan_Presidential_2024": {
+                    "impact_probability": 1.0,
+                    "policy_change_risk": 0.533209775493846
+                }
+            },
+            "legislative_changes": {
+                "US_CHIPS_Act": {
+                    "implementation_stage": 1.0,
+                    "impact_level": 0.5550151053779805
+                },
+                "EU_Critical_Raw_Materials_Act": {
+                    "implementation_stage": 1.0,
+                    "impact_level": 0.42621558476237387
+                },
+                "China_NEV_Policy_Update": {
+                    "implementation_stage": 1.0,
+                    "impact_level": 0.27802230986165255
+                }
+            }
+        }
+    },
+    "performance_metrics": {
+        "market_access": {
+            "average_access_score": 0.6665406438359552,
+            "compliance_score": 0.9531318360292477,
+            "political_stability": 0.6427959582477271,
+            "trade_barrier_level": 0.6229007426179286
+        },
+        "trade_policy": {
+            "average_tariff_rate": 0.09090541469005735,
+            "active_agreements": 2,
+            "export_control_intensity": 0.20688901427396322
+        },
+        "regulatory_burden": {
+            "total_compliance_cost": 1.9248812320195563,
+            "regulatory_complexity": 3,
+            "certification_requirements": 11
+        },
+        "risk_assessment": {
+            "total_risk_exposure": 1.2966435408218855,
+            "high_probability_risks": 4,
+            "diplomatic_strength": 0.5708486286228561
+        },
+        "compliance_status": {
+            "regional_compliance_scores": {
+                "China": 0.8121792932399763,
+                "United_States": 0.6159654293583118,
+                "Europe": 0.7889143887679648,
+                "Southeast_Asia": 0.7323032010932045,
+                "Latin_America": 0.6854369968113403,
+                "Middle_East_Africa": 0.5312689193918453
+            },
+            "certification_timeline": {},
+            "regulatory_gaps": {},
+            "compliance_costs": {},
+            "total_compliance_cost": 1.9248812320195563,
+            "risk_adjusted_market_access": 0.41369845382182296
+        }
+    },
+    "risk_history": {
+        "monthly_risk_scores": [],
+        "policy_changes": [],
+        "trade_disruptions": [
+            {
+                "date": "2025-04-01T00:00:00",
+                "risk_type": "technology_decoupling",
+                "severity": 0.4836030236628274
+            },
+            {
+                "date": "2025-05-01T00:00:00",
+                "risk_type": "technology_decoupling",
+                "severity": 0.5149359688061446
+            },
+            {
+                "date": "2025-06-01T00:00:00",
+                "risk_type": "technology_decoupling",
+                "severity": 0.49241065200306866
+            },
+            {
+                "date": "2025-11-01T00:00:00",
+                "risk_type": "technology_decoupling",
+                "severity": 0.4375625553180192
+            }
+        ],
+        "compliance_incidents": []
+    },
+    "compliance_status": {
+        "regional_compliance_scores": {
+            "China": 0.8121792932399763,
+            "United_States": 0.6159654293583118,
+            "Europe": 0.7889143887679648,
+            "Southeast_Asia": 0.7323032010932045,
+            "Latin_America": 0.6854369968113403,
+            "Middle_East_Africa": 0.5312689193918453
+        },
+        "certification_timeline": {},
+        "regulatory_gaps": {},
+        "compliance_costs": {},
+        "total_compliance_cost": 1.9248812320195563,
+        "risk_adjusted_market_access": 0.41369845382182296
+    }
+}

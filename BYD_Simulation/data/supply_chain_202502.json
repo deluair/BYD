@@ -1,0 +1,328 @@
+{
+    "timestamp": "2025-02-01T00:00:00",
+    "type": "SupplyChain",
+    "data": {
+        "supplier_network": {
+            "tier_1_suppliers": {
+                "CATL": {
+                    "category": "Battery_Cells",
+                    "reliability_score": 1.0,
+                    "cost_competitiveness": 0.8187740441745305,
+                    "delivery_performance": 0.9492404739684493,
+                    "quality_rating": 0.9490349391845702,
+                    "capacity_utilization": 0.7235202426799044,
+                    "contract_value_billion_cny": 49.62267845449833,
+                    "risk_level": "low",
+                    "geographic_location": "China",
+                    "backup_suppliers": [
+                        "BYD_Internal",
+                        "EVE_Energy"
+                    ]
+                },
+                "Bosch": {
+                    "category": "Electronic_Components",
+                    "reliability_score": 0.9772009542328234,
+                    "cost_competitiveness": 0.7229920426162452,
+                    "delivery_performance": 0.9173722043740568,
+                    "quality_rating": 1.0,
+                    "capacity_utilization": 0.7328146459043045,
+                    "contract_value_billion_cny": 12.81248332204893,
+                    "risk_level": "low",
+                    "geographic_location": "Germany",
+                    "backup_suppliers": [
+                        "Continental",
+                        "Denso"
+                    ]
+                },
+                "Ganfeng_Lithium": {
+                    "category": "Raw_Materials",
+                    "reliability_score": 0.8896570344471927,
+                    "cost_competitiveness": 0.8173003672471857,
+                    "delivery_performance": 0.899439645396973,
+                    "quality_rating": 0.8860314607516812,
+                    "capacity_utilization": 0.8362173898690237,
+                    "contract_value_billion_cny": 9.847812463142203,
+                    "risk_level": "medium",
+                    "geographic_location": "China",
+                    "backup_suppliers": [
+                        "Albemarle",
+                        "SQM"
+                    ]
+                },
+                "Magna_International": {
+                    "category": "Automotive_Parts",
+                    "reliability_score": 0.9562917436420597,
+                    "cost_competitiveness": 0.7393310561086669,
+                    "delivery_performance": 0.8686285197283917,
+                    "quality_rating": 0.9186915252794661,
+                    "capacity_utilization": 0.9766313109007728,
+                    "contract_value_billion_cny": 16.618458032414043,
+                    "risk_level": "medium",
+                    "geographic_location": "Canada",
+                    "backup_suppliers": [
+                        "Aptiv",
+                        "ZF_Friedrichshafen"
+                    ]
+                }
+            },
+            "tier_2_suppliers": {
+                "semiconductor_suppliers": {
+                    "count": 25,
+                    "avg_reliability": 0.84647152363357,
+                    "geographic_diversity": 0.6685988329820621,
+                    "total_value_billion_cny": 6.8
+                },
+                "metal_processing": {
+                    "count": 18,
+                    "avg_reliability": 0.9311810932150413,
+                    "geographic_diversity": 0.7593694845430918,
+                    "total_value_billion_cny": 4.2
+                },
+                "chemical_suppliers": {
+                    "count": 12,
+                    "avg_reliability": 0.8784973997249113,
+                    "geographic_diversity": 0.5273726007323901,
+                    "total_value_billion_cny": 3.1
+                }
+            }
+        },
+        "logistics_operations": {
+            "transportation": {
+                "road_freight": {
+                    "cost_per_km_cny": 3.169535340528737,
+                    "reliability": 0.9506160575379664,
+                    "capacity_utilization": 0.7853404057754922,
+                    "carbon_intensity": 0.75
+                },
+                "rail_freight": {
+                    "cost_per_km_cny": 1.131656645125569,
+                    "reliability": 0.9292562092609312,
+                    "capacity_utilization": 0.7586375324789707,
+                    "carbon_intensity": 0.35
+                },
+                "sea_freight": {
+                    "cost_per_km_cny": 0.16039062515777472,
+                    "reliability": 0.8927790181159967,
+                    "capacity_utilization": 0.8912647865949777,
+                    "carbon_intensity": 0.2
+                },
+                "air_freight": {
+                    "cost_per_km_cny": 8.55902229661843,
+                    "reliability": 0.923123883811573,
+                    "capacity_utilization": 0.7436321896460164,
+                    "carbon_intensity": 1.5
+                }
+            },
+            "warehousing": {
+                "total_facilities": 45,
+                "total_capacity_million_m3": 2.8,
+                "utilization_rate": 0.746092418450434,
+                "automation_level": 0.7028641992032953,
+                "cost_per_m3_monthly_cny": 25,
+                "inventory_turnover": 8.72035962036991
+            },
+            "distribution_centers": {
+                "domestic_centers": 28,
+                "international_centers": 12,
+                "avg_processing_time_hours": 16.443187795661732,
+                "order_accuracy": 0.9896002672974121,
+                "cost_efficiency_index": 0.82
+            }
+        },
+        "inventory_management": {
+            "raw_materials": {
+                "lithium_carbonate": {
+                    "current_stock_tons": 11706.721405338254,
+                    "safety_stock_days": 45,
+                    "reorder_point_tons": 8000,
+                    "cost_per_ton_cny": 676274.6074308224,
+                    "price_volatility": 0.35
+                },
+                "steel": {
+                    "current_stock_tons": 68591.60750746982,
+                    "safety_stock_days": 30,
+                    "reorder_point_tons": 45000,
+                    "cost_per_ton_cny": 4956.2792509276005,
+                    "price_volatility": 0.15
+                },
+                "aluminum": {
+                    "current_stock_tons": 19503.54940615667,
+                    "safety_stock_days": 35,
+                    "reorder_point_tons": 12000,
+                    "cost_per_ton_cny": 21226.245855394172,
+                    "price_volatility": 0.2
+                }
+            },
+            "work_in_progress": {
+                "battery_modules": {
+                    "units": 136832,
+                    "value_billion_cny": 2.8,
+                    "cycle_time_days": 11.217055496337409
+                },
+                "vehicle_chassis": {
+                    "units": 44547,
+                    "value_billion_cny": 1.2,
+                    "cycle_time_days": 7.691807183117584
+                }
+            },
+            "finished_goods": {
+                "vehicles_ready_for_delivery": 30998,
+                "battery_packs_inventory": 94105,
+                "total_value_billion_cny": 15.6,
+                "avg_holding_time_days": 20.335250975066703
+            }
+        },
+        "risk_management": {
+            "supply_disruption_risks": {
+                "natural_disasters": {
+                    "probability": 0.20298240454911487,
+                    "impact_severity": 0.4924271660003079,
+                    "affected_suppliers": [
+                        "Ganfeng_Lithium",
+                        "CATL"
+                    ],
+                    "mitigation_cost_million_cny": 125
+                },
+                "geopolitical_tensions": {
+                    "probability": 0.24489213481971245,
+                    "impact_severity": 0.6402699759564755,
+                    "affected_suppliers": [
+                        "Bosch",
+                        "Magna_International"
+                    ],
+                    "mitigation_cost_million_cny": 280
+                },
+                "cyber_attacks": {
+                    "probability": 0.17886024624282496,
+                    "impact_severity": 0.4762849474044839,
+                    "affected_systems": [
+                        "logistics_tracking",
+                        "supplier_portals"
+                    ],
+                    "mitigation_cost_million_cny": 85
+                },
+                "pandemic_disruptions": {
+                    "probability": 0.16911128239303855,
+                    "impact_severity": 0.537502377684755,
+                    "affected_operations": [
+                        "manufacturing",
+                        "logistics"
+                    ],
+                    "mitigation_cost_million_cny": 350
+                }
+            },
+            "contingency_plans": {
+                "supplier_diversification": {
+                    "implementation_level": 0.790169442631399,
+                    "effectiveness": 0.7319285024607691,
+                    "cost_premium": 0.08
+                },
+                "inventory_buffering": {
+                    "implementation_level": 0.8455485864204025,
+                    "effectiveness": 0.7257533177774538,
+                    "cost_premium": 0.12
+                },
+                "alternative_logistics": {
+                    "implementation_level": 0.6950526958021707,
+                    "effectiveness": 0.6331096128493527,
+                    "cost_premium": 0.15
+                }
+            }
+        },
+        "sustainability_metrics": {
+            "carbon_footprint": {
+                "total_co2_tons_annually": 285000,
+                "reduction_target": 0.3,
+                "current_progress": 0.20105277477589925,
+                "green_logistics_adoption": 0.5122567298105575
+            },
+            "circular_economy": {
+                "material_recycling_rate": 0.7196454408830188,
+                "waste_reduction": 0.3074041385255706,
+                "supplier_sustainability_score": 0.72
+            },
+            "social_responsibility": {
+                "supplier_labor_standards": 0.8720338943588805,
+                "local_sourcing_percentage": 0.624996537494029,
+                "community_impact_score": 0.78
+            }
+        },
+        "performance_kpis": {
+            "cost_efficiency": {
+                "total_supply_chain_cost_billion_cny": 100.66147368364182,
+                "cost_as_percentage_of_revenue": 0.42,
+                "year_over_year_cost_reduction": 0.08
+            },
+            "operational_excellence": {
+                "on_time_delivery_rate": 0.9403538921366009,
+                "quality_defect_rate": 0.0027057960084030373,
+                "supplier_performance_index": 0.9347130857058178,
+                "inventory_turnover_ratio": 8.2
+            },
+            "resilience_metrics": {
+                "supply_chain_flexibility": 0.7875219030889452,
+                "risk_mitigation_effectiveness": 0.6969304776958586,
+                "recovery_time_days": 12
+            }
+        }
+    },
+    "performance_metrics": {
+        "supplier_network": {
+            "tier1_supplier_count": 4,
+            "tier2_supplier_count": 55,
+            "average_supplier_performance": 0.9342990417504721,
+            "high_risk_suppliers": 0
+        },
+        "logistics_efficiency": {
+            "warehouse_utilization": 0.746092418450434,
+            "automation_level": 0.7028641992032953,
+            "order_accuracy": 0.9896002672974121,
+            "avg_processing_time": 16.443187795661732
+        },
+        "inventory_management": {
+            "total_inventory_value_billion_cny": 8690.504718522085,
+            "inventory_turnover": 8.72035962036991,
+            "raw_materials_value_million_cny": 8670.904718522084,
+            "finished_goods_holding_days": 20.335250975066703
+        },
+        "risk_management": {
+            "total_risk_exposure": 0.43283729084708905,
+            "mitigation_readiness": 0.776923574951324,
+            "disruption_events_count": 0
+        },
+        "sustainability": {
+            "carbon_reduction_progress": 0.20105277477589925,
+            "recycling_rate": 0.7196454408830188,
+            "local_sourcing_percentage": 0.624996537494029
+        },
+        "overall_performance": {
+            "cost_efficiency": {
+                "total_supply_chain_cost_billion_cny": 100.66147368364182,
+                "cost_as_percentage_of_revenue": 0.42,
+                "year_over_year_cost_reduction": 0.08
+            },
+            "operational_excellence": {
+                "on_time_delivery_rate": 0.9403538921366009,
+                "quality_defect_rate": 0.0027057960084030373,
+                "supplier_performance_index": 0.9347130857058178,
+                "inventory_turnover_ratio": 8.2
+            },
+            "resilience_metrics": {
+                "supply_chain_flexibility": 0.7875219030889452,
+                "risk_mitigation_effectiveness": 0.6969304776958586,
+                "recovery_time_days": 12
+            }
+        }
+    },
+    "performance_history": {
+        "monthly_costs": [],
+        "delivery_performance": [],
+        "supplier_ratings": [],
+        "disruption_events": []
+    },
+    "risk_alerts": {
+        "active_risks": [],
+        "mitigation_actions": [],
+        "supplier_warnings": []
+    }
+}

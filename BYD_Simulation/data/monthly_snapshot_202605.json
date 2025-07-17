@@ -1,0 +1,94 @@
+{
+  "date": "2026-05-01T00:00:00",
+  "automotive_metrics": {
+    "total_revenue": 0,
+    "total_units_sold": 0,
+    "average_selling_price": 0,
+    "revenue_by_region": {
+      "China": 0,
+      "Europe": 0,
+      "NorthAmerica": 0,
+      "SoutheastAsia": 0,
+      "LatinAmerica": 0,
+      "MiddleEast": 0
+    },
+    "units_by_model": {
+      "Seagull": 0,
+      "Dolphin": 0,
+      "Seal": 0,
+      "Han": 0,
+      "Tang": 0,
+      "Yuan": 0,
+      "Song": 0
+    }
+  },
+  "battery_metrics": {
+    "revenue": 0,
+    "raw_material_costs": 22435000,
+    "gross_margin": 0,
+    "inventory_value": 141749243.984418
+  },
+  "financial_summary": {
+    "total_revenue": 6.395332639969238e+21,
+    "net_profit": 6.629432945177394e+20,
+    "gross_profit": 2.1581688933291577e+21,
+    "operating_profit": 7.036613705132335e+20,
+    "cash_balance": 3.483119332686258e+20,
+    "total_assets": 3.483119332686264e+20,
+    "market_cap_estimate": 1.5988331599923094e+22
+  },
+  "market_metrics": {
+    "market_share": 0.0,
+    "customer_satisfaction": 0.9520000000000001,
+    "brand_perception": 0.6809999999999999,
+    "capacity_utilization": {
+      "China": 0.0,
+      "Europe": 0.0,
+      "NorthAmerica": 0.0,
+      "SoutheastAsia": 0.0,
+      "LatinAmerica": 0.0,
+      "MiddleEast": 0.0
+    },
+    "production_efficiency": {
+      "China": 0.85,
+      "Europe": 0.85,
+      "NorthAmerica": 0.85,
+      "SoutheastAsia": 0.85,
+      "LatinAmerica": 0.85,
+      "MiddleEast": 0.85
+    }
+  },
+  "technology_metrics": {
+    "rd_investment_billion_cny": 41.412666345213005,
+    "total_patents": 14211,
+    "patents_filed_this_year": 4061,
+    "rd_staff_count": 180519,
+    "innovation_pipeline_projects": 14,
+    "innovation_metrics": {
+      "time_to_market_months": 24.5369759166608,
+      "success_rate": 0.85,
+      "patent_citation_index": 3.1435535858141366,
+      "technology_transfer_rate": 0.9,
+      "rd_efficiency_score": 0.5277522904285875
+    },
+    "research_centers_count": 5,
+    "technology_partnerships": {
+      "universities": 4,
+      "industry": 3
+    }
+  },
+  "performance_kpis": {
+    "revenue": 6.395332639969238e+21,
+    "profit": 6.629432945177394e+20,
+    "market_share": 0.0,
+    "customer_satisfaction": 0.9520000000000001
+  },
+  "alerts": [
+    {
+      "type": "MARKET_WARNING",
+      "message": "Market share dropped to 0.0%",
+      "severity": "MEDIUM",
+      "date": "2026-05-01T00:00:00"
+    }
+  ]
+}

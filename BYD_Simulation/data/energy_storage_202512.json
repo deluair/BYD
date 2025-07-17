@@ -1,0 +1,217 @@
+{
+    "timestamp": "2025-12-01T00:00:00",
+    "type": "EnergyStorage",
+    "data": {
+        "revenue": 135127930958170.42,
+        "business_segments": {
+            "Utility_Scale": {
+                "installed_capacity_gwh": 254.99345470879126,
+                "pipeline_gwh": 390.47387638321777,
+                "revenue": 135086661345516.11,
+                "market_share": 0.17294272393496188,
+                "avg_contract_duration": 15,
+                "technology_mix": {
+                    "LFP": 0.75,
+                    "NCM": 0.2,
+                    "Sodium_Ion": 0.05
+                }
+            },
+            "Commercial_Industrial": {
+                "installed_capacity_gwh": 99.70130769863297,
+                "pipeline_gwh": 137.5469251992984,
+                "revenue": 41269612654.11584,
+                "market_share": 0.3211408220282582,
+                "avg_contract_duration": 10,
+                "technology_mix": {
+                    "LFP": 0.85,
+                    "NCM": 0.15
+                }
+            },
+            "Residential": {
+                "installed_capacity_gwh": 21.601456683238617,
+                "pipeline_gwh": 18.464197532706983,
+                "revenue": 0.1952950330432112,
+                "market_share": 0.17346206484372406,
+                "avg_contract_duration": 8,
+                "technology_mix": {
+                    "LFP": 0.9,
+                    "NCM": 0.1
+                }
+            }
+        },
+        "contracts": {
+            "active": [
+                {
+                    "name": "Saudi Electricity Co",
+                    "capacity_gwh": 12.5,
+                    "status": "ongoing",
+                    "region": "Middle East",
+                    "value_billion_cny": 8.2
+                },
+                {
+                    "name": "California ISO",
+                    "capacity_gwh": 8.3,
+                    "status": "ongoing",
+                    "region": "North America",
+                    "value_billion_cny": 6.1
+                },
+                {
+                    "name": "National Grid UK",
+                    "capacity_gwh": 6.7,
+                    "status": "ongoing",
+                    "region": "Europe",
+                    "value_billion_cny": 4.8
+                },
+                {
+                    "name": "Australian Energy Market",
+                    "capacity_gwh": 9.8,
+                    "status": "active",
+                    "region": "Asia Pacific",
+                    "probability": 0.6,
+                    "value_billion_cny": 6.796931543830069
+                },
+                {
+                    "name": "Texas Grid Operator",
+                    "capacity_gwh": 15.2,
+                    "status": "active",
+                    "region": "North America",
+                    "probability": 0.75,
+                    "value_billion_cny": 9.418853393090709
+                },
+                {
+                    "name": "Grid Project 2025-03",
+                    "capacity_gwh": 6.279364199247748,
+                    "status": "active",
+                    "region": "Latin America",
+                    "probability": 0.7839208941830731,
+                    "value_billion_cny": 4.171170564736123
+                },
+                {
+                    "name": "Grid Project 2025-11",
+                    "capacity_gwh": 7.843000550117732,
+                    "status": "active",
+                    "region": "Latin America",
+                    "probability": 0.5482380371544097,
+                    "value_billion_cny": 5.1244535066947545
+                }
+            ],
+            "pipeline": []
+        },
+        "manufacturing": {
+            "facilities": {
+                "Hefei": {
+                    "capacity_gwh": 40,
+                    "utilization": 0.98,
+                    "technology": "LFP_Advanced"
+                },
+                "Qingdao": {
+                    "capacity_gwh": 25,
+                    "utilization": 0.98,
+                    "technology": "NCM_Premium"
+                },
+                "Changzhou": {
+                    "capacity_gwh": 20,
+                    "utilization": 0.98,
+                    "technology": "Sodium_Ion"
+                }
+            },
+            "quality_metrics": {
+                "cycle_life": 8886,
+                "round_trip_efficiency": 0.9315683819469951,
+                "safety_incidents": 7.311372739921298e-05,
+                "warranty_claims": 0.007993732755670526
+            }
+        },
+        "technology_development": {
+            "next_gen_chemistry": {
+                "solid_state": 0.6176817279708269,
+                "silicon_anode": 0.9689572622681021,
+                "lithium_metal": 0.5795619847158415
+            },
+            "system_integration": {
+                "ai_bms": 1.0,
+                "grid_forming": 1.0,
+                "predictive_maintenance": 0.921037087999394
+            },
+            "cost_reduction_target": 0.08528001783620384
+        },
+        "market_dynamics": {
+            "renewable_integration_demand": 1.0,
+            "grid_stability_requirements": 1.0,
+            "policy_support_index": 0.85,
+            "competition_intensity": 0.72,
+            "pricing_pressure": 0.65
+        },
+        "regional_presence": {
+            "China": {
+                "market_share": 0.3261804081501093,
+                "growth_rate": 0.05
+            },
+            "North_America": {
+                "market_share": 0.16847600485853528,
+                "growth_rate": 0.05
+            },
+            "Europe": {
+                "market_share": 0.11402641509668594,
+                "growth_rate": 0.05
+            },
+            "Asia_Pacific": {
+                "market_share": 0.21691566854302152,
+                "growth_rate": 0.05025115534678323
+            },
+            "Middle_East": {
+                "market_share": 0.26595217024915746,
+                "growth_rate": 0.05
+            }
+        }
+    },
+    "performance_metrics": {
+        "financial": {
+            "total_revenue": 135127930958170.42
+        },
+        "capacity_metrics": {
+            "total_installed_gwh": 376.2962190906629,
+            "total_pipeline_gwh": 546.4849991152232,
+            "capacity_utilization": 0.98
+        },
+        "market_position": {
+            "avg_market_share": 0.22251520360231472,
+            "active_contracts": 7,
+            "pipeline_contracts": 0
+        },
+        "technology_readiness": {
+            "next_gen_avg": 0.72206699165159,
+            "system_integration_avg": 0.9736790293331313,
+            "cost_competitiveness": 0.9147199821637961
+        },
+        "quality_score": {
+            "cycle_life_index": 0.8886,
+            "efficiency_score": 0.9315683819469951,
+            "reliability_score": 0.9920062672443295
+        }
+    },
+    "market_forecasts": {
+        "global_demand_gwh": 580.0,
+        "annual_growth_rate": 0.35,
+        "renewable_penetration": 0.42,
+        "grid_modernization_investment": 1.2
+    },
+    "competitive_landscape": {
+        "CATL": {
+            "market_share": 0.32,
+            "strength": "cost_leadership"
+        },
+        "Tesla": {
+            "market_share": 0.18,
+            "strength": "technology_integration"
+        },
+        "LG_Energy": {
+            "market_share": 0.15,
+            "strength": "manufacturing_scale"
+        },
+        "Panasonic": {
+            "market_share": 0.12,
+            "strength": "quality_reliability"
+        }
+    }
+}

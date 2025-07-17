@@ -1,0 +1,196 @@
+{
+    "timestamp": "2026-01-01T00:00:00",
+    "type": "Sales",
+    "data": {
+        "sales": {
+            "Seagull": {
+                "China": 23941,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Dolphin": {
+                "China": 17167,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Seal": {
+                "China": 12337,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Han": {
+                "China": 7103,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Tang": {
+                "China": 9265,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Yuan": {
+                "China": 19674,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Song": {
+                "China": 12265,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            }
+        },
+        "inventory": {
+            "Seagull": {
+                "China": 22136,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Dolphin": {
+                "China": 18483,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Seal": {
+                "China": 12519,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Han": {
+                "China": 5456,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Tang": {
+                "China": 10234,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Yuan": {
+                "China": 16477,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Song": {
+                "China": 9309,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            }
+        },
+        "market_share": {
+            "China": 0.12459428571428573,
+            "Europe": 0.0,
+            "NorthAmerica": 0.0,
+            "SoutheastAsia": 0.0,
+            "LatinAmerica": 0.0,
+            "MiddleEast": 0.0
+        },
+        "customer_satisfaction": {
+            "China": 0.9520000000000001,
+            "Europe": 0.9520000000000001,
+            "NorthAmerica": 0.9520000000000001,
+            "SoutheastAsia": 0.9520000000000001,
+            "LatinAmerica": 0.9520000000000001,
+            "MiddleEast": 0.9520000000000001
+        },
+        "pricing": {
+            "Seagull": {
+                "China": 83307,
+                "Europe": 117018,
+                "NorthAmerica": 125686,
+                "SoutheastAsia": 99681,
+                "LatinAmerica": 108350,
+                "MiddleEast": 112684
+            },
+            "Dolphin": {
+                "China": 121871,
+                "Europe": 173448,
+                "NorthAmerica": 186296,
+                "SoutheastAsia": 147752,
+                "LatinAmerica": 160600,
+                "MiddleEast": 167024
+            },
+            "Seal": {
+                "China": 220023,
+                "Europe": 311553,
+                "NorthAmerica": 334631,
+                "SoutheastAsia": 265397,
+                "LatinAmerica": 288475,
+                "MiddleEast": 300014
+            },
+            "Han": {
+                "China": 246919,
+                "Europe": 341253,
+                "NorthAmerica": 366531,
+                "SoutheastAsia": 290697,
+                "LatinAmerica": 315975,
+                "MiddleEast": 328614
+            },
+            "Tang": {
+                "China": 301726,
+                "Europe": 430353,
+                "NorthAmerica": 462231,
+                "SoutheastAsia": 366597,
+                "LatinAmerica": 398475,
+                "MiddleEast": 414414
+            },
+            "Yuan": {
+                "China": 149078,
+                "Europe": 207603,
+                "NorthAmerica": 222981,
+                "SoutheastAsia": 176847,
+                "LatinAmerica": 192225,
+                "MiddleEast": 199914
+            },
+            "Song": {
+                "China": 204151,
+                "Europe": 281853,
+                "NorthAmerica": 302731,
+                "SoutheastAsia": 240097,
+                "LatinAmerica": 260975,
+                "MiddleEast": 271414
+            }
+        }
+    }
+}

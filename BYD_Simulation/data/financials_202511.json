@@ -1,0 +1,383 @@
+{
+    "timestamp": "2025-11-01T00:00:00",
+    "type": "Financials",
+    "data": {
+        "revenue_streams": {
+            "automotive": {
+                "vehicle_sales": 0,
+                "after_sales_service": 0.0,
+                "financing_income": 0.0,
+                "leasing_income": 0.0,
+                "total": 0.0
+            },
+            "battery": {
+                "oem_sales": 0.0,
+                "replacement_market": 0.0,
+                "energy_storage_systems": 0.0,
+                "recycling_revenue": 0.0,
+                "total": 0
+            },
+            "electronics": {
+                "semiconductor_sales": 196.9172655889106,
+                "igbt_modules": 157.5338124711285,
+                "power_management": 123.77656694160096,
+                "sensors_iot": 84.39311382381884,
+                "total": 562.6207588254589
+            },
+            "energy_storage": {
+                "utility_scale": 2374973501620.6436,
+                "commercial_industrial": 1847201612371.6116,
+                "residential": 791657833873.5479,
+                "grid_services": 263885944624.516,
+                "total": 5277718892490.319
+            },
+            "other_business": {
+                "rail_transit": 30947.53395375657,
+                "electronics_manufacturing": 17306.18675045598,
+                "real_estate": 6515.270306054013,
+                "total": 54768.99101026657
+            }
+        },
+        "cost_structure": {
+            "cost_of_goods_sold": {
+                "raw_materials": 1331181804562.7986,
+                "direct_labor": 813300668878.2394,
+                "manufacturing_overhead": 737828513590.0272,
+                "logistics_distribution": 347294871102.40155,
+                "total": 3229605858133.467
+            },
+            "operating_expenses": {
+                "research_development": 403074617462.026,
+                "sales_marketing": 546193868133.4798,
+                "general_administrative": 291878153701.8214,
+                "warranty_provisions": 0.0,
+                "total": 1307358056905.8528
+            },
+            "financial_costs": {
+                "interest_expense": 621.5856346038591,
+                "foreign_exchange_loss": 9570428177.56761,
+                "other_financial_costs": 14532131201.75482,
+                "total": 25785547352.733536
+            }
+        },
+        "profitability_metrics": {
+            "gross_profit": 2048113089688.4639,
+            "gross_margin": 0.3880678584701261,
+            "operating_profit": 740755032782.6111,
+            "operating_margin": 0.14035514965955403,
+            "net_profit": 714969485429.8776,
+            "net_margin": 0.13546941254326159,
+            "ebitda": 740755033603.2638,
+            "ebitda_margin": 0.14035514981504785
+        },
+        "cash_flow": {
+            "operating_cash_flow": {
+                "net_income": 714969485429.8776,
+                "depreciation_amortization": 820.652705354304,
+                "working_capital_change": 5747.126857550522,
+                "other_operating_items": 3.2403786491674964,
+                "total": 735020595742.9363
+            },
+            "investing_cash_flow": {
+                "capex": -6001.377486976129,
+                "rd_investments": -120922385238.6078,
+                "acquisitions": 0,
+                "asset_disposals": 0,
+                "total": -126978528098.06406
+            },
+            "financing_cash_flow": {
+                "debt_issuance": 0,
+                "debt_repayment": 0,
+                "equity_issuance": 0,
+                "dividends_paid": -178742371357.4694,
+                "total": -183755161067.7128
+            },
+            "net_cash_flow": 424286906577.1594,
+            "cash_balance": 433546076515.08563
+        },
+        "balance_sheet": {
+            "assets": {
+                "current_assets": {
+                    "cash_equivalents": 433546076515.08563,
+                    "accounts_receivable": 45200,
+                    "inventory": 38500,
+                    "other_current": 12800,
+                    "total": 433546173015.08563
+                },
+                "non_current_assets": {
+                    "property_plant_equipment": 333441.8069233434,
+                    "intangible_assets": 45200,
+                    "investments": 28500,
+                    "other_non_current": 15800,
+                    "total": 422941.8069233434
+                },
+                "total_assets": 433546595956.8926
+            },
+            "liabilities": {
+                "current_liabilities": {
+                    "accounts_payable": 52800,
+                    "short_term_debt": 28500,
+                    "accrued_expenses": 18200,
+                    "other_current": 9500,
+                    "total": 109000
+                },
+                "non_current_liabilities": {
+                    "long_term_debt": 125600,
+                    "deferred_tax": 15800,
+                    "other_non_current": 8200,
+                    "total": 149600
+                },
+                "total_liabilities": 258600
+            },
+            "equity": {
+                "share_capital": 29100,
+                "retained_earnings": 735020863381.0074,
+                "other_equity": 53400,
+                "total_equity": 735020945881.0074
+            }
+        },
+        "financial_ratios": {
+            "liquidity_ratios": {
+                "current_ratio": 3977487.8258264735,
+                "quick_ratio": 3977487.4726154646,
+                "cash_ratio": 3977486.940505373
+            },
+            "efficiency_ratios": {
+                "asset_turnover": 146.08032438607896,
+                "inventory_turnover": 1006630397.3403014,
+                "receivables_turnover": 1401164322.4306011,
+                "working_capital_turnover": 0
+            },
+            "profitability_ratios": {
+                "return_on_assets": 19.789415728711205,
+                "return_on_equity": 11.67263854620476,
+                "return_on_invested_capital": 0
+            },
+            "leverage_ratios": {
+                "debt_to_equity": 2.0965388927154092e-07,
+                "debt_to_assets": 5.964756785351684e-07,
+                "interest_coverage": 1191718391.7139583
+            }
+        },
+        "market_data": {
+            "exchange_rates": {
+                "CNY_USD": 0.12886843515014157,
+                "CNY_EUR": 0.10782561099789077,
+                "CNY_JPY": 19.169045451040336,
+                "CNY_GBP": 0.11213767271939985
+            },
+            "commodity_prices": {
+                "lithium_carbonate_cny_per_ton": 588255.725419231,
+                "nickel_cny_per_ton": 134510.29233712822,
+                "cobalt_cny_per_ton": 475258.8196215024,
+                "steel_cny_per_ton": 5229.514939819239,
+                "aluminum_cny_per_ton": 18600.038208316477
+            },
+            "interest_rates": {
+                "china_base_rate": 0.04084267399372697,
+                "us_fed_rate": 0.0614620276382021,
+                "ecb_rate": 0.043392766436936105,
+                "corporate_bond_yield": 0.04906499264839225
+            }
+        },
+        "forecasting": {
+            "revenue_forecast": {
+                "next_quarter": 16572186995676.236,
+                "next_year": 75157109809230.28,
+                "growth_rate_projection": 0.18670443538628526
+            },
+            "cost_forecast": {
+                "next_quarter": 13377831744531.896,
+                "next_year": 50714606971094.88,
+                "efficiency_improvement": 0.06849220608037081
+            },
+            "investment_pipeline": {
+                "planned_capex": 45200,
+                "rd_budget": 28500,
+                "expansion_projects": 15800
+            }
+        },
+        "risk_metrics": {
+            "financial_risks": {
+                "currency_exposure": 0.25,
+                "commodity_price_risk": 0.35,
+                "interest_rate_risk": 0.15,
+                "credit_risk": 0.08
+            },
+            "operational_risks": {
+                "supply_chain_disruption": 0.2,
+                "regulatory_changes": 0.18,
+                "technology_obsolescence": 0.12,
+                "competitive_pressure": 0.22
+            }
+        }
+    },
+    "performance_metrics": {
+        "revenue_performance": {
+            "total_revenue_million_cny": 5277718947821.931,
+            "automotive_revenue_share": 0.0,
+            "battery_revenue_share": 0.0,
+            "revenue_growth_rate": 0.18670443538628526
+        },
+        "profitability_performance": {
+            "gross_margin": 0.3880678584701261,
+            "operating_margin": 0.14035514965955403,
+            "net_margin": 0.13546941254326159,
+            "ebitda_margin": 0.14035514981504785
+        },
+        "financial_health": {
+            "current_ratio": 3977487.8258264735,
+            "debt_to_equity": 2.0965388927154092e-07,
+            "return_on_equity": 11.67263854620476,
+            "cash_balance_million_cny": 433546076515.08563
+        },
+        "operational_efficiency": {
+            "asset_turnover": 146.08032438607896,
+            "inventory_turnover": 1006630397.3403014,
+            "cost_efficiency_improvement": 0.06849220608037081
+        }
+    },
+    "financial_history": {
+        "monthly_revenue": [
+            {
+                "date": "2025-01-01T00:00:00",
+                "revenue": 28097.420610544505
+            },
+            {
+                "date": "2025-02-01T00:00:00",
+                "revenue": 29674.977047498993
+            },
+            {
+                "date": "2025-03-01T00:00:00",
+                "revenue": 33035.836069375626
+            },
+            {
+                "date": "2025-04-01T00:00:00",
+                "revenue": 55588.945325195054
+            },
+            {
+                "date": "2025-05-01T00:00:00",
+                "revenue": 276425.02989056613
+            },
+            {
+                "date": "2025-06-01T00:00:00",
+                "revenue": 3069881.294380016
+            },
+            {
+                "date": "2025-07-01T00:00:00",
+                "revenue": 42004217.50658067
+            },
+            {
+                "date": "2025-08-01T00:00:00",
+                "revenue": 655001590.938041
+            },
+            {
+                "date": "2025-09-01T00:00:00",
+                "revenue": 11708736703.29631
+            },
+            {
+                "date": "2025-10-01T00:00:00",
+                "revenue": 235983357987.93683
+            },
+            {
+                "date": "2025-11-01T00:00:00",
+                "revenue": 5277718947821.931
+            }
+        ],
+        "monthly_profit": [
+            {
+                "date": "2025-01-01T00:00:00",
+                "profit": 4270.879104409405
+            },
+            {
+                "date": "2025-02-01T00:00:00",
+                "profit": -2013.1596119622905
+            },
+            {
+                "date": "2025-03-01T00:00:00",
+                "profit": -11270.651113957305
+            },
+            {
+                "date": "2025-04-01T00:00:00",
+                "profit": -17857.696448160063
+            },
+            {
+                "date": "2025-05-01T00:00:00",
+                "profit": -2826.91410029331
+            },
+            {
+                "date": "2025-06-01T00:00:00",
+                "profit": 108642.75927038516
+            },
+            {
+                "date": "2025-07-01T00:00:00",
+                "profit": 1369287.4852337483
+            },
+            {
+                "date": "2025-08-01T00:00:00",
+                "profit": 129448665.44531521
+            },
+            {
+                "date": "2025-09-01T00:00:00",
+                "profit": 586599540.8564332
+            },
+            {
+                "date": "2025-10-01T00:00:00",
+                "profit": 19333596112.12581
+            },
+            {
+                "date": "2025-11-01T00:00:00",
+                "profit": 714969485429.8776
+            }
+        ],
+        "cash_flow_history": [],
+        "ratio_trends": []
+    },
+    "risk_alerts": {
+        "liquidity_warnings": [
+            {
+                "date": "2025-05-01T00:00:00",
+                "type": "Low Current Ratio",
+                "value": 0.7601876522688261
+            },
+            {
+                "date": "2025-06-01T00:00:00",
+                "type": "Low Current Ratio",
+                "value": 0.1132063728027081
+            }
+        ],
+        "profitability_alerts": [
+            {
+                "date": "2025-02-01T00:00:00",
+                "type": "Low Net Margin",
+                "value": -0.06784030898288292
+            },
+            {
+                "date": "2025-03-01T00:00:00",
+                "type": "Low Net Margin",
+                "value": -0.3411643976646697
+            },
+            {
+                "date": "2025-04-01T00:00:00",
+                "type": "Low Net Margin",
+                "value": -0.32124546245107954
+            },
+            {
+                "date": "2025-05-01T00:00:00",
+                "type": "Low Net Margin",
+                "value": -0.010226693658719895
+            },
+            {
+                "date": "2025-06-01T00:00:00",
+                "type": "Low Net Margin",
+                "value": 0.03538988933196725
+            },
+            {
+                "date": "2025-07-01T00:00:00",
+                "type": "Low Net Margin",
+                "value": 0.03259880951285966
+            }
+        ],
+        "market_risks": []
+    }
+}

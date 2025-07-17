@@ -1,0 +1,47 @@
+{
+    "timestamp": "2025-10-01T00:00:00",
+    "type": "BatteryProduction",
+    "data": {
+        "LFP_Blade": {
+            "China": 7404,
+            "Europe": 871,
+            "NorthAmerica": 436,
+            "SoutheastAsia": 0,
+            "LatinAmerica": 0,
+            "MiddleEast": 0
+        },
+        "NMC": {
+            "China": 1759,
+            "Europe": 207,
+            "NorthAmerica": 104,
+            "SoutheastAsia": 0,
+            "LatinAmerica": 0,
+            "MiddleEast": 0
+        },
+        "SolidState": {
+            "China": 93,
+            "Europe": 11,
+            "NorthAmerica": 6,
+            "SoutheastAsia": 0,
+            "LatinAmerica": 0,
+            "MiddleEast": 0
+        }
+    },
+    "raw_materials": {
+        "Lithium": {
+            "price_per_ton": 20000,
+            "inventory": 500,
+            "monthly_consumption": 50
+        },
+        "Cobalt": {
+            "price_per_ton": 35000,
+            "inventory": 300,
+            "monthly_consumption": 20
+        },
+        "Nickel": {
+            "price_per_ton": 18000,
+            "inventory": 1200,
+            "monthly_consumption": 80
+        }
+    }
+}

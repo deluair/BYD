@@ -1,0 +1,159 @@
+{
+    "timestamp": "2025-04-01T00:00:00",
+    "type": "Electronics",
+    "data": {
+        "revenue": 212.57460288243675,
+        "product_lines": {
+            "Semiconductors": {
+                "revenue": 76.47248337714487,
+                "market_share": 0.14189299365189223,
+                "capacity_utilization": 0.98,
+                "technology_node": "28nm",
+                "r_and_d_investment": 8.5
+            },
+            "IGBT_Modules": {
+                "revenue": 51.147261066916975,
+                "market_share": 0.25109516659025327,
+                "capacity_utilization": 0.98,
+                "efficiency_rating": 0.98,
+                "automotive_share": 0.75
+            },
+            "Power_Management": {
+                "revenue": 40.7495518196737,
+                "market_share": 0.1441208712227552,
+                "capacity_utilization": 0.98,
+                "product_portfolio": [
+                    "DC-DC",
+                    "AC-DC",
+                    "Wireless_Charging"
+                ],
+                "efficiency_improvement": 0.03
+            },
+            "Sensors_IoT": {
+                "revenue": 44.205306618701194,
+                "market_share": 0.14814890183163798,
+                "capacity_utilization": 0.98,
+                "ai_integration": 0.45,
+                "automotive_grade": 0.68
+            }
+        },
+        "manufacturing": {
+            "facilities": {
+                "Shenzhen": {
+                    "capacity": 100,
+                    "utilization": 0.42742389072111514,
+                    "technology": "Advanced"
+                },
+                "Xian": {
+                    "capacity": 80,
+                    "utilization": 0.4290567006763235,
+                    "technology": "Standard"
+                },
+                "Changsha": {
+                    "capacity": 60,
+                    "utilization": 0.37711540245794173,
+                    "technology": "Emerging"
+                }
+            },
+            "quality_metrics": {
+                "defect_rate": 0.0011651773867860015,
+                "yield_rate": 0.9707625727200554,
+                "customer_satisfaction": 0.9084116023001618
+            }
+        },
+        "innovation": {
+            "patents_filed": 2965,
+            "r_and_d_staff": 12643,
+            "technology_roadmap": {
+                "next_gen_semiconductors": 0.8044830264313401,
+                "ai_chips": 0.4663305089122055,
+                "quantum_sensors": 0.22976879969960326
+            }
+        },
+        "market_dynamics": {
+            "competition_intensity": 0.7347856447675001,
+            "price_pressure": 0.6614651043556555,
+            "demand_growth": 0.07349126785072405,
+            "supply_chain_stability": 0.7624064865012438
+        }
+    },
+    "performance_metrics": {
+        "financial": {
+            "total_revenue": 212.57460288243675
+        },
+        "product_line_performance": {
+            "Semiconductors": {
+                "revenue": 76.47248337714487,
+                "market_share": 0.14189299365189223,
+                "capacity_utilization": 0.98,
+                "technology_node": "28nm",
+                "r_and_d_investment": 8.5
+            },
+            "IGBT_Modules": {
+                "revenue": 51.147261066916975,
+                "market_share": 0.25109516659025327,
+                "capacity_utilization": 0.98,
+                "efficiency_rating": 0.98,
+                "automotive_share": 0.75
+            },
+            "Power_Management": {
+                "revenue": 40.7495518196737,
+                "market_share": 0.1441208712227552,
+                "capacity_utilization": 0.98,
+                "product_portfolio": [
+                    "DC-DC",
+                    "AC-DC",
+                    "Wireless_Charging"
+                ],
+                "efficiency_improvement": 0.03
+            },
+            "Sensors_IoT": {
+                "revenue": 44.205306618701194,
+                "market_share": 0.14814890183163798,
+                "capacity_utilization": 0.98,
+                "ai_integration": 0.45,
+                "automotive_grade": 0.68
+            }
+        },
+        "manufacturing_efficiency": {
+            "avg_utilization": 0.41119866461846016,
+            "quality_score": 0.9696314621223838
+        },
+        "innovation_index": {
+            "patents_per_staff": 0.23451712410029266,
+            "technology_readiness": 0.5001941116810495
+        },
+        "market_position": {
+            "avg_market_share": 0.17131448332413468,
+            "competitive_strength": 0.2652143552324999
+        }
+    },
+    "market_trends": {
+        "ev_electronics_demand": 1.531233728989271,
+        "industrial_automation": 1.3274273120645579,
+        "consumer_electronics": 1.005896188532836,
+        "renewable_energy": 1.8117483661920055
+    },
+    "customer_segments": {
+        "Automotive_OEMs": {
+            "share": 0.45,
+            "growth": 0.15,
+            "margin": 0.22
+        },
+        "Industrial": {
+            "share": 0.25,
+            "growth": 0.08,
+            "margin": 0.18
+        },
+        "Consumer": {
+            "share": 0.2,
+            "growth": 0.05,
+            "margin": 0.12
+        },
+        "Renewable_Energy": {
+            "share": 0.1,
+            "growth": 0.25,
+            "margin": 0.28
+        }
+    }
+}

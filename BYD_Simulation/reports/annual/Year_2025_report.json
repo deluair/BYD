@@ -1,0 +1,38 @@
+{
+  "year": 2025,
+  "summary": {
+    "total_revenue": 140676510693294.9,
+    "total_profit": 20094651198691.188,
+    "avg_market_share": 0.004443759398496241,
+    "avg_customer_satisfaction": 0.9520000000000001
+  },
+  "growth_metrics": {
+    "revenue_growth_rate": 0,
+    "profit_growth_rate": 0,
+    "production_growth": {
+      "vehicles": 0,
+      "batteries": 0
+    }
+  },
+  "risk_assessment": [
+    {
+      "type": "Market Position",
+      "severity": "High",
+      "description": "Market share below target: 5.3%"
+    }
+  ],
+  "strategic_recommendations": [
+    {
+      "area": "Market Expansion",
+      "priority": "High",
+      "action": "Increase marketing investment and expand product portfolio",
+      "expected_impact": "Improve market share by 3-5%"
+    },
+    {
+      "area": "Technology Innovation",
+      "priority": "High",
+      "action": "Increase R&D investment and accelerate technology development",
+      "expected_impact": "Improve competitive position and product differentiation"
+    }
+  ]
+}

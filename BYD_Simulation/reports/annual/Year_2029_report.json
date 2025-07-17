@@ -1,0 +1,38 @@
+{
+  "year": 2029,
+  "summary": {
+    "total_revenue": 9.842890923186685e+60,
+    "total_profit": 1.7610540672982263e+60,
+    "avg_market_share": 0.0,
+    "avg_customer_satisfaction": 0.9520000000000001
+  },
+  "growth_metrics": {
+    "revenue_growth_rate": 4.149384569913437e+26,
+    "profit_growth_rate": 7.329253329794532e+26,
+    "production_growth": {
+      "vehicles": 0,
+      "batteries": 0
+    }
+  },
+  "risk_assessment": [
+    {
+      "type": "Market Position",
+      "severity": "High",
+      "description": "Market share below target: 0.0%"
+    }
+  ],
+  "strategic_recommendations": [
+    {
+      "area": "Market Expansion",
+      "priority": "High",
+      "action": "Increase marketing investment and expand product portfolio",
+      "expected_impact": "Improve market share by 3-5%"
+    },
+    {
+      "area": "Technology Innovation",
+      "priority": "High",
+      "action": "Increase R&D investment and accelerate technology development",
+      "expected_impact": "Improve competitive position and product differentiation"
+    }
+  ]
+}

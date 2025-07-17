@@ -1,0 +1,147 @@
+{
+    "timestamp": "2026-04-01T00:00:00",
+    "type": "Production",
+    "data": {
+        "production": {
+            "Seagull": {
+                "China": 0,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Dolphin": {
+                "China": 0,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Seal": {
+                "China": 0,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Han": {
+                "China": 0,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Tang": {
+                "China": 0,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Yuan": {
+                "China": 0,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            },
+            "Song": {
+                "China": 0,
+                "Europe": 0,
+                "NorthAmerica": 0,
+                "SoutheastAsia": 0,
+                "LatinAmerica": 0,
+                "MiddleEast": 0
+            }
+        },
+        "demand_forecast": {
+            "Seagull": {
+                "China": 80434,
+                "Europe": 29704,
+                "NorthAmerica": 23009,
+                "SoutheastAsia": 6808,
+                "LatinAmerica": 3017,
+                "MiddleEast": 3295
+            },
+            "Dolphin": {
+                "China": 49427,
+                "Europe": 18975,
+                "NorthAmerica": 17376,
+                "SoutheastAsia": 5431,
+                "LatinAmerica": 2069,
+                "MiddleEast": 2668
+            },
+            "Seal": {
+                "China": 45557,
+                "Europe": 17235,
+                "NorthAmerica": 14389,
+                "SoutheastAsia": 4464,
+                "LatinAmerica": 1810,
+                "MiddleEast": 1727
+            },
+            "Han": {
+                "China": 23245,
+                "Europe": 8310,
+                "NorthAmerica": 6890,
+                "SoutheastAsia": 2126,
+                "LatinAmerica": 999,
+                "MiddleEast": 1116
+            },
+            "Tang": {
+                "China": 34420,
+                "Europe": 13810,
+                "NorthAmerica": 10147,
+                "SoutheastAsia": 3509,
+                "LatinAmerica": 1392,
+                "MiddleEast": 1531
+            },
+            "Yuan": {
+                "China": 72312,
+                "Europe": 24295,
+                "NorthAmerica": 20948,
+                "SoutheastAsia": 6454,
+                "LatinAmerica": 2287,
+                "MiddleEast": 2874
+            },
+            "Song": {
+                "China": 44303,
+                "Europe": 15511,
+                "NorthAmerica": 12661,
+                "SoutheastAsia": 4395,
+                "LatinAmerica": 1844,
+                "MiddleEast": 1859
+            }
+        },
+        "capacity_utilization": {
+            "China": 0.0,
+            "Europe": 0.0,
+            "NorthAmerica": 0.0,
+            "SoutheastAsia": 0.0,
+            "LatinAmerica": 0.0,
+            "MiddleEast": 0.0
+        },
+        "production_efficiency": {
+            "China": 0.85,
+            "Europe": 0.85,
+            "NorthAmerica": 0.85,
+            "SoutheastAsia": 0.85,
+            "LatinAmerica": 0.85,
+            "MiddleEast": 0.85
+        },
+        "quality_metrics": {
+            "China": 0.92,
+            "Europe": 0.92,
+            "NorthAmerica": 0.92,
+            "SoutheastAsia": 0.92,
+            "LatinAmerica": 0.92,
+            "MiddleEast": 0.92
+        },
+        "brand_perception": 0.693
+    }
+}
